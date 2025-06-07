@@ -2,7 +2,6 @@
 *.asv
 *.m~
 *.mex*
-*.mat
 *.slx.autosave
 *.slxc
 slprj/
@@ -13,7 +12,14 @@ slprj/
 optimized_speaker_model.mat
 speaker_model.mat
 lstm_model.mat
-evaluation_suite.m
+
+# Audio dataset (too large for GitHub, see DATASET.md for preparation guide)
+*.wav
+*.mp3
+*.mp4
+*.m4a
+*.flac
+car/
 
 # Temporary files
 *~
@@ -32,13 +38,6 @@ Thumbs.db
 # IDE files
 .vscode/
 .idea/
-
-# Audio data (large files)
-*.wav
-*.mp3
-*.mp4
-*.m4a
-*.flac
 
 # Generated results
 *.png

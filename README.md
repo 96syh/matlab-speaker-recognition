@@ -8,7 +8,7 @@
 
 A comprehensive speaker recognition system based on deep learning with optimized CNN architecture, achieving 95%+ accuracy with complete evaluation metrics and SNR robustness analysis.
 
-[**中文文档**](README.md) | [**Documentation**](docs/) | [**GUI Manual**](GUI_使用说明.md)
+[**Dataset Setup**](DATASET.md) | [**Documentation**](docs/) | [**Contributing**](CONTRIBUTING.md)
 
 ## ✨ Key Features
 
@@ -28,6 +28,28 @@ A comprehensive speaker recognition system based on deep learning with optimized
 - Signal Processing Toolbox
 - Audio Toolbox (optional, for advanced data augmentation)
 - GPU recommended for training
+
+### 📁 Dataset Preparation
+
+**Before running the system, please prepare your audio dataset:**
+
+1. **📖 Read the dataset guide**: [DATASET.md](DATASET.md)
+2. **🗂️ Create dataset structure**:
+   ```
+   car/
+   ├── speaker1/
+   │   ├── sample1.wav
+   │   └── sample2.wav
+   ├── speaker2/
+   └── ...
+   ```
+3. **📊 Recommended**: 10+ speakers, 100+ samples per speaker
+4. **🎵 Audio format**: WAV files, 16kHz, mono
+
+**Popular datasets you can use:**
+- [VoxCeleb](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/) - 1000+ speakers
+- [LibriSpeech](http://www.openslr.org/12/) - 2000+ speakers  
+- [TIMIT](https://catalog.ldc.upenn.edu/LDC93S1) - 630 speakers
 
 ### One-Click Run (Recommended)
 
@@ -74,20 +96,16 @@ professional_speaker_gui()
 ├── 🔊 snr_analysis.m                 # SNR robustness analysis
 ├── 🖥️ professional_speaker_gui.m     # Professional GUI interface
 ├── 📈 training_monitor.m             # Training process monitor
-├── 📄 README.md                      # Chinese documentation
-├── 📄 README_EN.md                   # English documentation
-├── 📄 GUI_使用说明.md                # GUI user manual
-└── 📁 car/                           # Audio dataset
-    ├── 📁 a1/  # Speaker 1 (92 files)
-    ├── 📁 b2/  # Speaker 2 (96 files)
-    ├── 📁 c3/  # Speaker 3 (97 files)
-    ├── 📁 D8/  # Speaker 4 (100 files)
-    ├── 📁 e5/  # Speaker 5 (95 files)
-    ├── 📁 f6/  # Speaker 6 (100 files)
-    ├── 📁 f9/  # Speaker 7 (95 files)
-    ├── 📁 g7/  # Speaker 8 (97 files)
-    ├── 📁 h8/  # Speaker 9 (97 files)
-    └── 📁 i10/ # Speaker 10 (95 files)
+├── 📋 DATASET.md                     # Dataset preparation guide
+├── 📄 README.md                      # Project documentation
+├── 📄 CONTRIBUTING.md                # Contribution guidelines
+├── 📄 CHANGELOG.md                   # Version history
+├── 📁 examples/                      # Usage examples
+│   └── basic_usage.m                # Basic usage examples
+└── 📁 car/                           # Audio dataset (prepare by user)
+    ├── 📁 speaker1/                  # Speaker 1 audio files
+    ├── 📁 speaker2/                  # Speaker 2 audio files
+    └── 📁 ...                        # Additional speakers
 ```
 
 ## 🔬 Technical Features
