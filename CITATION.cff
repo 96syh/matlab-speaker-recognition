@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "High-Performance Speaker Recognition System"
+abstract: "A comprehensive deep learning-based speaker recognition system with optimized CNN architecture, achieving 95%+ accuracy with complete evaluation metrics including EER, minDCF, FAR, FRR and SNR robustness analysis."
+authors:
+  - family-names: "Contributors"
+    given-names: "Speaker Recognition System"
+    email: "contributors@example.com"
+repository-code: "https://github.com/yourusername/speaker-recognition-system"
+url: "https://github.com/yourusername/speaker-recognition-system"
+license: MIT
+version: "1.0.0"
+date-released: "2024-01-01"
+keywords:
+  - "speaker recognition"
+  - "deep learning"
+  - "CNN"
+  - "audio processing"
+  - "MFCC"
+  - "biometric identification"
+  - "signal processing"
+  - "MATLAB"
+  - "machine learning"
+  - "voice recognition"
+preferred-citation:
+  type: software
+  title: "High-Performance Speaker Recognition System: A Deep Learning Approach with CNN Architecture"
+  authors:
+    - family-names: "Contributors"
+      given-names: "Speaker Recognition System"
+  year: 2024
+  url: "https://github.com/yourusername/speaker-recognition-system"
+  license: MIT
+  abstract: "This software presents a comprehensive speaker recognition system based on deep convolutional neural networks, featuring advanced MFCC feature extraction, data augmentation strategies, and professional evaluation metrics. The system achieves over 95% accuracy with robust performance across various noise conditions." 

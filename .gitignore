@@ -1,0 +1,67 @@
+# MATLAB Files
+*.asv
+*.m~
+*.mex*
+*.mat
+*.slx.autosave
+*.slxc
+slprj/
+*.slx.original
+
+# Large model files (consider using Git LFS)
+*.mat
+optimized_speaker_model.mat
+speaker_model.mat
+lstm_model.mat
+evaluation_suite.m
+
+# Temporary files
+*~
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Audio data (large files)
+*.wav
+*.mp3
+*.mp4
+*.m4a
+*.flac
+
+# Generated results
+*.png
+*.jpg
+*.pdf
+*_results.txt
+*_report.txt
+
+# Log files
+*.log
+
+# Backup files
+*.backup
+*.bak
+
+# Compiled files
+*.dll
+*.exe
+
+# Python cache (if any Python scripts)
+__pycache__/
+*.pyc
+*.pyo
+
+# Documentation build
+docs/_build/ 
