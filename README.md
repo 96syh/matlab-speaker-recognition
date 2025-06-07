@@ -19,27 +19,27 @@ A comprehensive speaker recognition system based on deep learning with optimized
 - ⚡ **End-to-End**: Complete pipeline from training to deployment
 - 📈 **Real-time Monitoring**: Training progress visualization and early stopping
 
-## 📸 系统展示 / System Screenshots
+## 📸 System Screenshots
 
-### 🖥️ 专业GUI主界面 / Professional GUI Main Interface
+### 🖥️ Professional GUI Main Interface
 
-![GUI主界面](images/gui_main_interface.png)
+![GUI Main Interface](images/gui_main_interface.png)
 
-*功能展示：模型训练管理、参数配置、实时训练曲线监控*
+*Features: Model training management, parameter configuration, real-time training curve monitoring*
 
-### 🎙️ 实时音频分析界面 / Real-time Audio Analysis Interface
+### 🎙️ Real-time Audio Analysis Interface
 
-![实时分析界面](images/real_time_analysis.png)
+![Real-time Analysis Interface](images/real_time_analysis.png)
 
-*功能展示：音频波形分析、MFCC特征可视化、说话人识别结果、概率分布*
+*Features: Audio waveform analysis, MFCC feature visualization, speaker recognition results, probability distribution*
 
-### ✨ 主要界面特色 / Key Interface Features
+### ✨ Key Interface Features
 
-- 🎯 **直观的模型状态显示** - 一目了然的训练进度和模型性能
-- 📊 **实时特征可视化** - MFCC特征图和音频波形实时展示  
-- 🔊 **多维度分析结果** - 识别结果、置信度、说话人概率分布
-- 📈 **专业训练曲线** - 损失函数变化趋势，便于调优
-- 🎨 **现代化UI设计** - 清晰的布局和专业的视觉效果
+- 🎯 **Intuitive Model Status Display** - Clear training progress and model performance overview
+- 📊 **Real-time Feature Visualization** - Live MFCC feature maps and audio waveform display
+- 🔊 **Multi-dimensional Analysis Results** - Recognition results, confidence scores, speaker probability distribution
+- 📈 **Professional Training Curves** - Loss function trends for optimization guidance
+- 🎨 **Modern UI Design** - Clean layout with professional visual appeal
 
 ## 🚀 Quick Start
 
