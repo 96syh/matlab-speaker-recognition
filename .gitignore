@@ -46,6 +46,10 @@ Thumbs.db
 *_results.txt
 *_report.txt
 
+# Allow documentation images
+!images/*.png
+!images/*.jpg
+
 # Log files
 *.log
 

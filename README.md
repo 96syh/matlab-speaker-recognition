@@ -19,6 +19,28 @@ A comprehensive speaker recognition system based on deep learning with optimized
 - ⚡ **End-to-End**: Complete pipeline from training to deployment
 - 📈 **Real-time Monitoring**: Training progress visualization and early stopping
 
+## 📸 系统展示 / System Screenshots
+
+### 🖥️ 专业GUI主界面 / Professional GUI Main Interface
+
+![GUI主界面](images/gui_main_interface.png)
+
+*功能展示：模型训练管理、参数配置、实时训练曲线监控*
+
+### 🎙️ 实时音频分析界面 / Real-time Audio Analysis Interface
+
+![实时分析界面](images/real_time_analysis.png)
+
+*功能展示：音频波形分析、MFCC特征可视化、说话人识别结果、概率分布*
+
+### ✨ 主要界面特色 / Key Interface Features
+
+- 🎯 **直观的模型状态显示** - 一目了然的训练进度和模型性能
+- 📊 **实时特征可视化** - MFCC特征图和音频波形实时展示  
+- 🔊 **多维度分析结果** - 识别结果、置信度、说话人概率分布
+- 📈 **专业训练曲线** - 损失函数变化趋势，便于调优
+- 🎨 **现代化UI设计** - 清晰的布局和专业的视觉效果
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -269,9 +291,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- 🐛 [Report Issues](https://github.com/yourusername/speaker-recognition-system/issues)
-- 💬 [Discussions](https://github.com/yourusername/speaker-recognition-system/discussions)
-- 📧 Email: [your-email@domain.com]
+- 🐛 [Report Issues](https://github.com/96syh/matlab-speaker-recognition/issues)
+- 💬 [Discussions](https://github.com/96syh/matlab-speaker-recognition/discussions)
+- 📧 Email: mrsong96sy@outlook.com
 
 ---
 
