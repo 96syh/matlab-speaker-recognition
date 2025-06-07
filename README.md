@@ -292,7 +292,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 - 🐛 [Report Issues](https://github.com/96syh/matlab-speaker-recognition/issues)
-- 💬 [Discussions](https://github.com/96syh/matlab-speaker-recognition/discussions)
+- 💬 [Questions & Discussions](https://github.com/96syh/matlab-speaker-recognition/issues/new?labels=question)
 - 📧 Email: mrsong96sy@outlook.com
 
 ---
